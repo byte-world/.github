@@ -1,0 +1,9 @@
+name: Bug Report
+description: Report a technical issue
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      description: What went wrong?
+    validations:
+      required: true
