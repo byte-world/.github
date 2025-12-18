@@ -1,0 +1,10 @@
+name: Registry Request
+description: Request ASN, IP, or object creation
+body:
+  - type: input
+    attributes:
+      label: Organization / Handle
+  - type: textarea
+    attributes:
+      label: Justification
+      description: Why do you need this resource?
